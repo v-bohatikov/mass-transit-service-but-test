@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitServiceBusTest.AppHost", "MassTransitServiceBusTest.AppHost\MassTransitServiceBusTest.AppHost.csproj", "{58DD44C4-2CCE-4D82-9BE0-42CC7CB45F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitServiceBusTest.ServiceDefaults", "MassTransitServiceBusTest.ServiceDefaults\MassTransitServiceBusTest.ServiceDefaults.csproj", "{AA80DD57-4B5B-6B55-B8E1-4C4E4A87C584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitServiceBusTest.ApiService", "MassTransitServiceBusTest.ApiService\MassTransitServiceBusTest.ApiService.csproj", "{3A89E92D-F46E-4312-97E9-E07024B427E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitServiceBusTest.Contracts", "MassTransitServiceBusTest.Contracts\MassTransitServiceBusTest.Contracts.csproj", "{D2846D6E-138E-48F3-97D6-546E1C915CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{299529CF-4185-42A2-8374-BDCA3CBE6377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DD44C4-2CCE-4D82-9BE0-42CC7CB45F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DD44C4-2CCE-4D82-9BE0-42CC7CB45F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DD44C4-2CCE-4D82-9BE0-42CC7CB45F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DD44C4-2CCE-4D82-9BE0-42CC7CB45F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA80DD57-4B5B-6B55-B8E1-4C4E4A87C584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA80DD57-4B5B-6B55-B8E1-4C4E4A87C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA80DD57-4B5B-6B55-B8E1-4C4E4A87C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA80DD57-4B5B-6B55-B8E1-4C4E4A87C584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A89E92D-F46E-4312-97E9-E07024B427E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A89E92D-F46E-4312-97E9-E07024B427E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A89E92D-F46E-4312-97E9-E07024B427E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A89E92D-F46E-4312-97E9-E07024B427E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2846D6E-138E-48F3-97D6-546E1C915CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2846D6E-138E-48F3-97D6-546E1C915CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2846D6E-138E-48F3-97D6-546E1C915CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2846D6E-138E-48F3-97D6-546E1C915CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299529CF-4185-42A2-8374-BDCA3CBE6377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299529CF-4185-42A2-8374-BDCA3CBE6377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299529CF-4185-42A2-8374-BDCA3CBE6377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299529CF-4185-42A2-8374-BDCA3CBE6377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59C22298-6ABB-42DB-B5B3-23E020D2569A}
+	EndGlobalSection
+EndGlobal
